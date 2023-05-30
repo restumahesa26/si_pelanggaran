@@ -8,7 +8,7 @@
         <div class="card w-100">
             <div class="card-body">
                 <h5 class="card-title">Profile</h5>
-                <form action="{{ route('profile.update') }}" method="post">
+                <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('PATCH')
                     <div class="form-group">
@@ -33,6 +33,15 @@
                         <label for="email">Email</label><sup class="text-danger">(*)</sup>
                         <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="Email" value="{{ old('email', $item->email) }}">
                         @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="avatar">Foto Profil</label>
+                        <input type="file" name="avatar" class="form-control @error('avatar') is-invalid @enderror" id="avatar" placeholder="Foto Profil">
+                        @error('avatar')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                             </span>

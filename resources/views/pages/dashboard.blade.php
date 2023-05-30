@@ -315,6 +315,15 @@
 
 @push('addon-script')
 <script>
+    var max = 0;
+    @forelse($tahunAjaran as $item)
+        value = {{ App\Helper\Helper::getPelanggaran($item->id) }};
+        if(value >= max) {
+            max = value;
+        }
+    @empty
+
+    @endforelse
     var chart2 = {
         series: [{
             name: "Jumlah Pelanggaran",
@@ -398,7 +407,7 @@
         yaxis: {
             show: true,
             min: 0,
-            max: 10,
+            max: max,
             tickAmount: 4,
             labels: {
                 style: {

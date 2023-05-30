@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title')</title>
+    <title>SIPELSIS - @yield('title')</title>
     @include('includes.style')
     @stack('addon-style')
 </head>

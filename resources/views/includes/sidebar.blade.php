@@ -2,8 +2,8 @@
     <!-- Sidebar scroll-->
     <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-            <a href="{{ route('dashboard') }}" class="text-nowrap logo-img">
-                <img src="{{ url('backend/src/assets/images/logos/logo-sidebar.svg') }}" width="180" alt="" />
+            <a href="{{ route('dashboard') }}" class="text-nowrap logo-img mt-2">
+                <img src="{{ url('logo.svg') }}" width="190" alt="" />
             </a>
             <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                 <i class="ti ti-x fs-8"></i>

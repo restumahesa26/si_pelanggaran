@@ -52,6 +52,16 @@ class ProfileController extends Controller
             ]);
         }
 
+        if ($request->avatar) {
+            $request->validate([
+                'avatar' => ['image', 'mimes:png,jpg,jpeg'],
+            ]);
+
+            $extension = $request->file('avatar')->extension();
+            $imageNames = uniqid('img_', microtime()) . '.' . $extension;
+            $request->file('avatar')->move(public_path('avatar'), $imageNames);
+        }
+
         $item = User::where('id', Auth::user()->id)->first();
 
         $item->nama = $request->nama;
@@ -60,7 +70,9 @@ class ProfileController extends Controller
         if ($request->password) {
             $item->password = Hash::make($request->password);
         }
-
+        if ($request->avatar) {
+            $item->avatar = $imageNames;
+        }
         $item->save();
 
         Alert::toast('Berhasil Update Profile', 'success')->position('top');
