@@ -18,17 +18,17 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5">
-                    <span class="d-block h5 text-center my-4 font-weight-bold"> Visi & Misi SMAN 1 Kota Bengkulu</span>
-                    <p class="text-dark font-weight-bold">Visi SMA Negeri 1 Kota Bengkulu</p>
-                    <p class="text-dark font-weight-bold text-justify" style="margin-top: -12px">“Terciptanya peserta didik yang beriman, berakhlak, cerdas, terampil, mandiri dan berwawasan global”</p>
-                    <p class="text-dark font-weight-bold text-justify">Misi SMA Negeri 1 Kota Bengkulu</p>
+                    <span class="d-block h5 text-center my-4 font-weight-bold text-white"> Visi & Misi SMAN 1 Kota Bengkulu</span>
+                    <p class="text-white font-weight-bold">Visi SMA Negeri 1 Kota Bengkulu</p>
+                    <p class="text-white font-weight-bold text-justify" style="margin-top: -12px">“Terciptanya peserta didik yang beriman, berakhlak, cerdas, terampil, mandiri dan berwawasan global”</p>
+                    <p class="text-white font-weight-bold text-justify">Misi SMA Negeri 1 Kota Bengkulu</p>
                     <ol style="padding-left: 16px">
-                        <li class="text-dark font-weight-bold text-justify">Menanamkan keimanan dan ketakwaan melalui pengalaman ajaran agama.</li>
-                        <li class="text-dark font-weight-bold text-justify">Melaksanakan proses pembelajaran dan bimbingan dengan mengedepankan kualitaspembelajaran yang didasari sikap ilmiah dan berwawasan lingkungan serta pelayanan bimbingan secara efektif.</li>
-                        <li class="text-dark font-weight-bold text-justify">Mengembangkan potensi peserta didik berdasarkan minat dan bakat yang dimiliki.</li>
-                        <li class="text-dark font-weight-bold text-justify">Membina kemandirian peserta didik melalui kegiatan pembiasaan, kedisiplinan, kewirausahaan, dan pengembangn diri yang terencana serta berkesinambungan.</li>
-                        <li class="text-dark font-weight-bold text-justify">Menjalin kerjasama yang harmonis antar warga sekolah, warga sekitar sekolah, dan lembaga lain yang terkait.</li>
-                        <li class="text-dark font-weight-bold text-justify">Membudayakan warga sekolah untuk cinta lingkungan hidup.</li>
+                        <li class="text-white font-weight-bold text-justify">Menanamkan keimanan dan ketakwaan melalui pengalaman ajaran agama.</li>
+                        <li class="text-white font-weight-bold text-justify">Melaksanakan proses pembelajaran dan bimbingan dengan mengedepankan kualitaspembelajaran yang didasari sikap ilmiah dan berwawasan lingkungan serta pelayanan bimbingan secara efektif.</li>
+                        <li class="text-white font-weight-bold text-justify">Mengembangkan potensi peserta didik berdasarkan minat dan bakat yang dimiliki.</li>
+                        <li class="text-white font-weight-bold text-justify">Membina kemandirian peserta didik melalui kegiatan pembiasaan, kedisiplinan, kewirausahaan, dan pengembangn diri yang terencana serta berkesinambungan.</li>
+                        <li class="text-white font-weight-bold text-justify">Menjalin kerjasama yang harmonis antar warga sekolah, warga sekitar sekolah, dan lembaga lain yang terkait.</li>
+                        <li class="text-white font-weight-bold text-justify">Membudayakan warga sekolah untuk cinta lingkungan hidup.</li>
                     </ol>
                 </div>
                 <div class="col-md-2 text-center">
@@ -38,7 +38,7 @@
                     <div class="text-center">
                         <img src="{{ url('logo.png') }}" alt="" width="100" class="mb-3">
                     </div>
-                    <div class="form-block">
+                    <div class="form-block" style="border-radius: 20px">
                         <div class="mb-4">
                             <h3>Masuk ke Sistem</h3>
                             <p class="mb-2 text-dark mt-2">Masukkan email dan password untuk masuk ke sistem.</p>
