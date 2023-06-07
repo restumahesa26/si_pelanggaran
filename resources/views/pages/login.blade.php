@@ -43,22 +43,23 @@
                             <h3>Masuk ke Sistem</h3>
                             <p class="mb-2 text-dark mt-2">Masukkan email dan password untuk masuk ke sistem.</p>
                         </div>
-                        @error('login')
-                            <small class="text-danger" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </small>
-                        @enderror
                         <form action="{{ route('login') }}" method="post">
                             @csrf
-                            <div class="form-group first">
+                            <div class="form-group">
                                 <label for="login">NIP atau Email</label>
                                 <input type="text" class="form-control @error('login') is-invalid @enderror" id="login" name="login" required>
                             </div>
-
-                            <div class="form-group last mb-4">
+                            <div class="form-group">
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
+                            @error('login')
+                            <div class="mb-2">
+                                <small class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </small>
+                            </div>
+                            @enderror
                             <div class="d-flex mb-5 align-items-center">
                                 <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
                                     <input type="checkbox" name="remember" />
