@@ -24,7 +24,7 @@
                     <p class="text-white font-weight-bold text-justify">Misi SMA Negeri 1 Kota Bengkulu</p>
                     <ol style="padding-left: 16px">
                         <li class="text-white font-weight-bold text-justify">Menanamkan keimanan dan ketakwaan melalui pengalaman ajaran agama.</li>
-                        <li class="text-white font-weight-bold text-justify">Melaksanakan proses pembelajaran dan bimbingan dengan mengedepankan kualitaspembelajaran yang didasari sikap ilmiah dan berwawasan lingkungan serta pelayanan bimbingan secara efektif.</li>
+                        <li class="text-white font-weight-bold text-justify">Melaksanakan proses pembelajaran dan bimbingan dengan mengedepankan kualitas pembelajaran yang didasari sikap ilmiah dan berwawasan lingkungan serta pelayanan bimbingan secara efektif.</li>
                         <li class="text-white font-weight-bold text-justify">Mengembangkan potensi peserta didik berdasarkan minat dan bakat yang dimiliki.</li>
                         <li class="text-white font-weight-bold text-justify">Membina kemandirian peserta didik melalui kegiatan pembiasaan, kedisiplinan, kewirausahaan, dan pengembangn diri yang terencana serta berkesinambungan.</li>
                         <li class="text-white font-weight-bold text-justify">Menjalin kerjasama yang harmonis antar warga sekolah, warga sekitar sekolah, dan lembaga lain yang terkait.</li>

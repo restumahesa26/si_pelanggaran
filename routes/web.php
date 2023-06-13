@@ -52,6 +52,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/cetak-surat/surat-pernyataan-siswa', [CetakSuratController::class, 'cetak_surat_pernyataan_siswa'])->name('cetak-surat.surat-pernyataan-siswa')->middleware('role3:Admin,BK,Wali Kelas');
     Route::get('/laporan', [LaporanController::class, 'index'])->name('laporan.index')->middleware('role3:Admin,BK,Wali Kelas');
     Route::get('/laporan/cetak', [LaporanController::class, 'cetak'])->name('laporan.cetak')->middleware('role3:Admin,BK,Wali Kelas');
+    Route::get('/laporan/cetak-2', [LaporanController::class, 'cetak2'])->name('laporan.cetak-2')->middleware('role2:Admin,BK');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');

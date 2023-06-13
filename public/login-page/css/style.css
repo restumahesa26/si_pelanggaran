@@ -1,10 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(0deg, rgba(232,216,163,0.3), rgba(232,216,163,0.3)), url('../../bg.jpg');
+  background: linear-gradient(0deg, rgba(27,1,1,0.3), rgba(27,1,1,0.3)), url('../../bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: #f8fafb;  */
 }
 
 p {
